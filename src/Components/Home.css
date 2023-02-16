@@ -1,0 +1,37 @@
+.Home{
+       padding:30px;
+       /* max-width: 90vw; */
+   
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-top: 0;
+}
+.flex-item{
+       /* padding: 40px; */
+    margin-top: 20px;
+    flex: 0 0 25%;
+    margin-bottom: 20px;
+    transition: tranform 2;
+}
+.flex-item>img{
+    height: 45vh;
+    width: 20vw;
+    /* justify-content: space-around; */
+}
+.button{
+    margin: 0;
+    color:aqua;
+    font-weight: bold;
+    position: relative;
+}
+.movie_title{
+    position: relative;
+}
+.flex-item>img:hover{
+transform: translateY(-10px);
+}
